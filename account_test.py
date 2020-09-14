@@ -5,17 +5,17 @@ from account import Account # Importing the account class
 class TestAccount(unittest.TestCase):
     def setUp(self):
        
-        self.new_account = Account("Ahmed","Mukhtar","abc234","mukhtarabdirahman@gmail.com") # create Account object
+        self.new_account = Account("Alvin","Ngunjiri","abc234","alvinngunjiri@gmail.com") # create Account object
 
     
     def test_init(self):
         '''
         test_init test case to test if the object is initialized properly
         '''
-        self.assertEqual(self.new_account.account_name,"Ahmed")
-        self.assertEqual(self.new_account.user_name,"Mukhtar")
+        self.assertEqual(self.new_account.account_name,"Alvin")
+        self.assertEqual(self.new_account.user_name,"Ngunjiri")
         self.assertEqual(self.new_account.password,"abc234")
-        self.assertEqual(self.new_account.email,"mukhtarabdirahman@gmail.com")
+        self.assertEqual(self.new_account.email,"alvinngunjiri@gmail.com")
 
     def test_save_account(self):
         '''
