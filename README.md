@@ -30,7 +30,7 @@
 ## Cloning
 -  In your terminal
 
-   - $ git clone 
+   - $ git clone https://github.com/alvinngunjiri/password-maker
 
    - $ cd password-maker
 ## Running the Application
@@ -42,6 +42,7 @@
     - $ python3.8 credential_test.py
 ## Contact
 alvinngunjiri@gmail.com
+
 -0740859049
 
 ## License
